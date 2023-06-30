@@ -22,8 +22,7 @@
 #include "ns3/applications-module.h"
 
 using namespace ns3;
-int
-main (int argc, char *argv[])
+int main (int argc, char *argv[])
 {
   Time::SetResolution (Time::NS);
   NodeContainer nodes;
